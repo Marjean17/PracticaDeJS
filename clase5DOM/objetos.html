@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document DOM Objetos</title>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="DOMObjetos.js"></script>
+</head>
+
+<body>
+    <article class="container">
+        <h1>Tabla de objetos</h1>
+        <table>
+            <thead>                
+                <th>ID</th>
+                <th>DESCRIPCION</th>
+                <th>IMPORTE</th>
+                <th>FINAL</th>                
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1234</td>
+                    <td>Descripcion</td>
+                    <td>1000.00</td>
+                    <td>1210.00</td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+            <footer>
+                    <button role="button" class="primary" onclick="listarPaises()">Lista Paises</button>
+                    <button role="button"class="secondary" onclick="agregarPais()">Agregar Pais</button>
+                    <button role="button"class="button button-grey" onclick="buscarPais()">Buscar Pais</button>
+                    <button role="button"class="button button-delete" onclick="eliminarPais()">Eliminar Pais</button>
+            </footer>
+    </article>      
+    
+</body>
+
+</html>

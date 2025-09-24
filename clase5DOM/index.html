@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="Paises.js"></script>
+    <script defer src="Main.js"></script>    
+    <script defer src="DOMArrays.js"></script>
+</head>
+
+<body>
+    <h1 id="miTitulo">Clase 05</h1>
+    <p id="parrafo">DOM y eventos</p>
+    <article class="container">
+        <div class="parent">
+            <div>
+                <ul> Listamos
+                    <li>Algo que eliminamos con la carga dinámica</li>
+                </ul>
+            </div>
+            <footer>
+                    <button class="button" onclick="listarPaises()">Lista Paises</button>
+                    <button class="button button-grey" onclick="agregarPais()">Agregar Pais</button>
+                    <button class="button button-outline" onclick="buscarPais()">Buscar Pais</button>
+                    <button class="button button-delete" onclick="eliminarPais()">Eliminar Pais</button>
+            </footer>
+        </div>
+    </article>
+</body>
+
+</html>
+
+<!-- para comentar y descomentar Ctrl + K + C -->
+
+<!-- en html semántico, tenemos 3 tags
+tag <header></header>, tag <main></main> y tag <footer></footer> -->
+
+<!-- Accedemos desde js a través del objeto global document -->
+
+<!-- Tipos de Nodos
+Document (Nodo raiz, contiene Header y Body)
+Element (representa una etiqueta = nodo)
+Attr (cada atributo de un Element)
+Text (NOdo que contiene el texto de una etiqueta)
+Comment (representa los comentarios) -->
