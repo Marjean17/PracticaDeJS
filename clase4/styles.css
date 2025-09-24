@@ -1,0 +1,31 @@
+/* Styles for clase3After */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #e28989;
+}                               
+
+h1 {
+    color: #3c2929;
+}
+p {
+    font-size: 16px;
+    color: #666;
+}
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+    border-style: solid;
+    border-inline-end-style: solid;
+    border-color: #faf8f8;
+}   
+
+
+
